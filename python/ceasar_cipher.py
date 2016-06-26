@@ -1,7 +1,10 @@
 def cipher(string, offset):
-    print string
+    cipher = []
+    for i in range(len(string)):
+        cipher.append(chr((ord(string[i])+offset)))
+    return ''.join(cipher)
 
 def main():
-    cipher("hello", 5)
+    print cipher("hello", 1)
 
 main()
