@@ -16,6 +16,6 @@ def binarySearch(lst, key):
 
 def main():
     lst = [-3, 1, 2, 4, 9, 23]
-    print(binarySearch(lst, 2))
+    print(binarySearch(lst, 3))
 
 main()
