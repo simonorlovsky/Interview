@@ -1,4 +1,4 @@
-import functools
+timport functools
 import operator
 
 def sumPrimes(n):
